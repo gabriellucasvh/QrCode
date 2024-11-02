@@ -62,4 +62,4 @@ Se você tiver alguma dúvida, sinta-se à vontade para entrar em contato:
 - Nome: Gabriel
 - E-mail: gabriellucasvh@gmail.com
 
-![](https://imguh.com/images/2024/11/02/qrcodepageb0cedee628909ea0.png)
+![](https://i.imgur.com/QisjnX6.png)
