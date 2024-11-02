@@ -1,75 +1,65 @@
-# Nuxt Minimal Starter
+# Gerador de QR Codes
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Um gerador de QR Codes desenvolvido com **Nuxt 3**, permitindo que os usuários insiram texto ou links e gerem códigos QR personalizados.
 
-## Setup
+> [!NOTE]
+> Preview ao final da documentação
+## Tecnologias Utilizadas
 
-Make sure to install dependencies:
+- [Nuxt 3](https://nuxtjs.org/)
+- [Vue 3](https://vuejs.org/)
+- [qrcode.vue](https://github.com/sindresorhus/qrcode.vue) para geração de QR Codes
+- [Google Fonts](https://fonts.google.com/) para tipografia
 
-```bash
-# npm
+## Pré-requisitos
+
+Antes de executar o projeto, você precisa ter o Node.js e o npm instalados em sua máquina. Você pode baixar e instalar o Node.js [aqui](https://nodejs.org/).
+
+## Instalação
+
+1. Clone este repositório:
+```
+git clone https://github.com/gabriellucasvh/QrCode
+```
+Navegue até o diretório do projeto:
+
+```
+cd QrCode
+```
+Instale as dependências:
+```
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
+Execução do Projeto
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```
 npm run dev
+```
+O aplicativo estará disponível em http://localhost:3000.
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+## Estrutura do Projeto
+```
+QrCode/
+├── components/
+│   └── QrCode.vue          # Componente para geração do QR Code
+├── app.vue                 # Página principal do aplicativo
+├── public/                 # Recursos estáticos
+├── nuxt.config.ts          # Configuração do Nuxt
+├── package.json            # Gerenciamento de dependências
+└── README.md               # Documentação do projeto
 ```
 
-## Production
+## Contribuição
+Contribuições são bem-vindas! Se você tem uma ideia ou um recurso que gostaria de adicionar, sinta-se à vontade para abrir um pull request.
 
-Build the application for production:
+## Licença
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
 
-```bash
-# npm
-npm run build
+## Contato
+Se você tiver alguma dúvida, sinta-se à vontade para entrar em contato:
 
-# pnpm
-pnpm build
+- Nome: Gabriel
+- E-mail: gabriellucasvh@gmail.com
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+![](https://i.imgur.com/QisjnX6.png)
